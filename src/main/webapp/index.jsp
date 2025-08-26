@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Life Insurance">
+                <img src="https://img.icons8.com/color/96/family.png" alt="Life Insurance">
                 <div class="card-content">
                     <h3>Life Insurance</h3>
                     <p>Secure your family’s future with life insurance policies designed to provide financial stability and confidence.</p>
