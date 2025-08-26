@@ -48,24 +48,24 @@
             border-radius: 15px;
             box-shadow: 0 6px 15px rgba(0,0,0,0.1);
             overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: transform 0.3s;
             text-align: center;
             padding: 20px;
         }
         .card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
         }
         .card img {
             width: 80px;
-            margin-bottom: 15px;
+            height: 80px;
+            margin: 0 auto 15px;
         }
-        .card h3 {
+        .card-content h3 {
             margin: 0 0 10px;
             font-size: 1.4rem;
             color: #0072ff;
         }
-        .card p {
+        .card-content p {
             font-size: 1rem;
             line-height: 1.5;
         }
@@ -92,24 +92,32 @@
 
         <div class="services">
             <div class="card">
-                <img src="https://img.icons8.com/color/96/home-insurance.png" alt="Home Insurance">
-                <h3>Home Insurance</h3>
-                <p>Protect your home from natural disasters, theft, and unforeseen damages with our tailored home insurance plans.</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/69/69524.png" alt="Home Insurance">
+                <div class="card-content">
+                    <h3>Home Insurance</h3>
+                    <p>Protect your home from natural disasters, theft, and unforeseen damages with our tailored home insurance plans.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="https://img.icons8.com/color/96/heart-health.png" alt="Health Insurance">
-                <h3>Health Insurance</h3>
-                <p>Comprehensive health coverage for you and your family, ensuring peace of mind in times of medical need.</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/2966/2966481.png" alt="Health Insurance">
+                <div class="card-content">
+                    <h3>Health Insurance</h3>
+                    <p>Comprehensive health coverage for you and your family, ensuring peace of mind in times of medical need.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="https://img.icons8.com/color/96/car-insurance.png" alt="Car Insurance">
-                <h3>Car Insurance</h3>
-                <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/743/743922.png" alt="Car Insurance">
+                <div class="card-content">
+                    <h3>Car Insurance</h3>
+                    <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="https://img.icons8.com/color/96/family.png" alt="Life Insurance">
-                <h3>Life Insurance</h3>
-                <p>Secure your family’s future with life insurance policies designed to provide financial stability and confidence.</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Life Insurance">
+                <div class="card-content">
+                    <h3>Life Insurance</h3>
+                    <p>Secure your family’s future with life insurance policies designed to provide financial stability and confidence.</p>
+                </div>
             </div>
         </div>
     </div>
