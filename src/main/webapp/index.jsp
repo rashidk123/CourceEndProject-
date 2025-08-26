@@ -51,25 +51,18 @@
             overflow: hidden;
             transition: transform 0.3s;
             width: 250px;
+            padding: 20px;
+            text-align: center;
         }
         .card:hover {
             transform: translateY(-8px);
         }
-        .card img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-        .card-content {
-            padding: 20px;
-            text-align: center;
-        }
-        .card-content h3 {
+        .card h3 {
             margin: 0 0 10px;
             font-size: 1.4rem;
             color: #0072ff;
         }
-        .card-content p {
+        .card p {
             font-size: 1rem;
             line-height: 1.5;
         }
@@ -96,32 +89,20 @@
 
         <div class="services">
             <div class="card">
-                <img src="https://source.unsplash.com/600x400/?house,home" alt="">
-                <div class="card-content">
-                    <h3>Home Insurance</h3>
-                    <p>Protect your home from natural disasters, theft, and unforeseen damages with our tailored home insurance plans.</p>
-                </div>
+                <h3>Home Insurance</h3>
+                <p>Protect your home from natural disasters, theft, and unforeseen damages with our tailored home insurance plans.</p>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/600x400/?health,medical" alt="">
-                <div class="card-content">
-                    <h3>Health Insurance</h3>
-                    <p>Comprehensive health coverage for you and your family, ensuring peace of mind in times of medical need.</p>
-                </div>
+                <h3>Health Insurance</h3>
+                <p>Comprehensive health coverage for you and your family, ensuring peace of mind in times of medical need.</p>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/600x400/?car,vehicle" alt="">
-                <div class="card-content">
-                    <h3>Car Insurance</h3>
-                    <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
-                </div>
+                <h3>Car Insurance</h3>
+                <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/600x400/?family,life" alt="">
-                <div class="card-content">
-                    <h3>Life Insurance</h3>
-                    <p>Secure your family’s future with life insurance policies designed to provide financial stability and confidence.</p>
-                </div>
+                <h3>Life Insurance</h3>
+                <p>Secure your family’s future with life insurance policies designed to provide financial stability and confidence.</p>
             </div>
         </div>
     </div>
