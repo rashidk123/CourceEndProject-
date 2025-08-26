@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="https://cdn-icons-png.flaticon.com/512/743/743922.png" alt="Car Insurance">
+                <img src="https://cdn-icons-png.flaticon.com/64/3097/3097144.png" alt="Car Insurance">
                 <div class="card-content">
                     <h3>Car Insurance</h3>
                     <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
