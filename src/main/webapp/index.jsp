@@ -90,7 +90,7 @@
             <p>We offer a range of insurance products including Home, Health, Car, and Life Insurance to keep you and your loved ones secure.</p>
         </div>
 
-       <div class="services">
+           <div class="services">
             <div class="card">
                 <img src="https://img.icons8.com/color/96/home-insurance.png" alt="Home Insurance">
                 <h3>Home Insurance</h3>
