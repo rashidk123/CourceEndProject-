@@ -97,12 +97,12 @@
                 <p>Protect your home from natural disasters, theft, and unforeseen damages with our tailored home insurance plans.</p>
             </div>
             <div class="card">
-                <img src="https://img.icons8.com/color/96/heart-with-pulse.png" alt="Health Insurance">
+                <img src="https://img.icons8.com/color/96/heart-health.png" alt="Health Insurance">
                 <h3>Health Insurance</h3>
                 <p>Comprehensive health coverage for you and your family, ensuring peace of mind in times of medical need.</p>
             </div>
             <div class="card">
-                <img src="https://img.icons8.com/color/96/car--v1.png" alt="Car Insurance">
+                <img src="https://img.icons8.com/color/96/car-insurance.png" alt="Car Insurance">
                 <h3>Car Insurance</h3>
                 <p>Affordable car insurance with wide coverage and 24/7 support to keep you safe on the road.</p>
             </div>
