@@ -39,8 +39,9 @@
             margin-bottom: 15px;
         }
         .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;  /* Center all cards */
             gap: 30px;
         }
         .card {
@@ -49,6 +50,11 @@
             box-shadow: 0 6px 15px rgba(0,0,0,0.1);
             overflow: hidden;
             transition: transform 0.3s;
+            flex: 0 1 250px;      /* Minimum card width */
+            max-width: 300px;     /* Limit maximum size */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Uniform height */
         }
         .card:hover {
             transform: translateY(-8px);
@@ -61,11 +67,12 @@
         .card-content {
             padding: 20px;
             text-align: center;
+            flex-grow: 1;   /* Makes content expand evenly */
         }
         .card-content h3 {
             margin: 0 0 10px;
             font-size: 1.4rem;
-            color: #0072ff;
+            color: #0072ff; /* Only blue heading */
         }
         .card-content p {
             font-size: 1rem;
